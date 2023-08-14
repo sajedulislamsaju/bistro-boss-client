@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import PopularManu from "../PopulatManu/PopularManu";
 import Sowiper from "../Sowiper/Sowiper";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <div >
             <Banner></Banner>
             <Sowiper></Sowiper>
+            <PopularManu></PopularManu>
         </div>
     );
 };

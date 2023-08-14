@@ -1,9 +1,11 @@
 import Banner from "../Banner/Banner";
+import Sowiper from "../Sowiper/Sowiper";
 
 const Home = () => {
     return (
-        <div className="my-11">
+        <div >
             <Banner></Banner>
+            <Sowiper></Sowiper>
         </div>
     );
 };

@@ -1,4 +1,6 @@
 import { Helmet } from 'react-helmet-async';
+import Cover from '../../Shared/Cover/Cover';
+import manuImg from '../../../assets/menu/menu-bg.png'
 
 const Manu = () => {
     return (
@@ -6,8 +8,7 @@ const Manu = () => {
             <Helmet>
                 <title>Bistro Boos | Manu</title>
             </Helmet>
-            This the the manu item
-            <h1>This is  the manu itehm section of the project you must be gone to the tabel of the year in china so you think iam fool .</h1>
+            <Cover img={manuImg}></Cover>
         </div>
     );
 };
